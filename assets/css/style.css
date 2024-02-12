@@ -31,10 +31,14 @@ body{
 /* #region header */
 
 #site_header{
-    background-color: aqua;
-    height: 70px;
+    background-color: var(--boot-nav_lighter);
 }
-
+.fa-bell{
+    color: var(--boot-bell);
+}
+.nav_search{
+   color: var(--boot-nav_search);
+}
 /* #endregion header */
 
 /* #region main */
@@ -44,7 +48,6 @@ body{
 .sidebar{
     background-color: blue;
     width: 70px;
-
 }
 
 /* #endregion sidebar */
