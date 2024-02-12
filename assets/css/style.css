@@ -3,6 +3,7 @@
 body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 :root{
@@ -68,6 +69,25 @@ body{
     overflow-y: auto;
     background-color: brown;
 }
+
+/* #region left_main */
+
+.left_main{
+    background-color: aquamarine;
+}
+
+/* #endregion left_main */
+
+
+/* #region right_main */
+
+.right_main{
+    background-color: chocolate;
+}
+
+/* #endregion right_main */
+
+
 
 /* #endregion main_content */
 
