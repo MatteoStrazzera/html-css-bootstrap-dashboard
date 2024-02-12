@@ -32,7 +32,7 @@ body{
 
 #site_header{
     background-color: aqua;
-    height: 50px;
+    height: 70px;
 }
 
 /* #endregion header */
@@ -43,7 +43,7 @@ body{
 
 .sidebar{
     background-color: blue;
-    width: 50px;
+    width: 70px;
 
 }
 
