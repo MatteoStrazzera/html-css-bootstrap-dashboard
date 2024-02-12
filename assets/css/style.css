@@ -40,7 +40,38 @@ body{
 
 /* #region sidebar */
 
+.sidebar{
+    background-color: blue;
+    width: 50px;
+
+}
+
 /* #endregion sidebar */
+
+/* #region main_container */
+
+.main_container{
+    background-color: blueviolet;
+}
+
+/* #region banner */
+
+.banner{
+    background-color: beige;
+    height: 150px;
+}
+/* #endregion banner */
+
+/* #region main_content */
+
+.main_content{
+    overflow-y: auto;
+    background-color: brown;
+}
+
+/* #endregion main_content */
+
+/* #endregion main_container */
 
 /* #endregion main */
 
