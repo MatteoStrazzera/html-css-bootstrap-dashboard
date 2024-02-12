@@ -1,5 +1,10 @@
 /* #region common */
 
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
 :root{
 
     --boot-banner: rgba(27, 114, 232, 1);
@@ -33,7 +38,9 @@
 
 /* #region main */
 
+/* #region sidebar */
 
+/* #endregion sidebar */
 
 /* #endregion main */
 
