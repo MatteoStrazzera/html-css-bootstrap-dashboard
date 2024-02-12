@@ -1,0 +1,19 @@
+/* #region common */
+
+:root{
+
+    --boot-banner: rgba(27, 114, 232, 1);
+    --boot-fail: rgba(220, 53, 69, 1);
+    --boot-success: rgba(25, 135, 84, 1);
+    --boot-process: rgba(255, 193, 7, 1);
+    --boot-bell: rgba(255, 143, 0, 1);
+    --boot-icon_dark: rgba(108, 117, 125, 1);
+    --boot-icon_darker: rgba(91, 88, 88, 1);
+    --boot-nav_lighter: rgba(251, 251, 252, 1);
+    --boot-nav_search: rgba(229, 229, 229, 1);
+    --boot-main_lighter: rgba(248, 249, 250, 1);
+    --boot-main_light: rgba(247, 247, 247, 1);
+    
+}
+
+/* #endregion common */
