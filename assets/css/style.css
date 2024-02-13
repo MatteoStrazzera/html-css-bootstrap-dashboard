@@ -1,6 +1,6 @@
 /* #region common */
 * {
-    border: 1px dashed;
+    /* border: 1px dashed; */
 }
 body{
     height: 100vh;
@@ -16,6 +16,7 @@ body{
     --boot-process: rgba(255, 193, 7, 1);
     --boot-bell: rgba(255, 143, 0, 1);
     --boot-bg_sidebar: rgba(5, 30, 52, 1);
+    --boot-badge:rgba(22, 91, 186, 1);
     --boot-icon_dark: rgba(108, 117, 125, 1);
     --boot-icon_darker: rgba(91, 88, 88, 1);
     --boot-nav_lighter: rgba(251, 251, 252, 1);
@@ -24,6 +25,7 @@ body{
     --boot-main_light: rgba(247, 247, 247, 1);
     
 }
+
 /* #endregion common */
 
 /* #region utilities */
@@ -68,6 +70,9 @@ main{
 .banner{
     background-color: var(--boot-banner);
     
+}
+.bg_badge{
+    background-color: var(--boot-badge);
 }
 /* #endregion banner */
 
