@@ -17,7 +17,7 @@
 
     <header id="site_header">
 
-        <nav class="navbar">
+        <nav class="navbar navbar-expand">
 
             <div class="nav_logo">
 
@@ -73,7 +73,7 @@
                             <i class="fa-solid fa-bell"></i>
                         </a>
 
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu dropdown-menu-end">
 
                             <li>
                                 <a class="dropdown-item" href="#">Profilo</a>
@@ -144,13 +144,34 @@
 
         <main id="site_main" class="w-100">
 
-            <div class="banner">
+            <div class="banner text-white">
 
-                <div class="container d-flex flex-column flex-md-row">
+                <div class="container d-flex flex-column flex-md-row m-0 gap-3">
 
-                    <div class="new_students">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident pariatur dolore corrupti.
-                        Iste facere recusandae doloribus distinctio similique cumque. Blanditiis.
+                    <div class="new_students d-flex align-items-center align-self-start gap-3 pt-4">
+                        <span>
+                            Nuovo Studente
+                        </span>
+
+                        <button class="btn text-white border" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close">
+                                </button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                ...
+                            </div>
+                        </div>
                     </div>
 
                     <div class="bool_apps">
