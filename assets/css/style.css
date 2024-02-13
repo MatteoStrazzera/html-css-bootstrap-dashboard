@@ -1,5 +1,7 @@
 /* #region common */
-
+* {
+    border: 1px dashed;
+}
 body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -41,7 +43,11 @@ body{
 }
 /* #endregion header */
 
-/* #region main */
+/* #region wrapper */
+
+#wrapper{
+    height: calc(100% - 80px);
+}
 
 /* #region sidebar */
 
@@ -97,7 +103,7 @@ body{
 
 /* #endregion main_container */
 
-/* #endregion main */
+/* #endregion wrapper */
 
 
 
