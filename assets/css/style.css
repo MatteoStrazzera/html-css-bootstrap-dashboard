@@ -46,7 +46,7 @@ body{
 /* #region wrapper */
 
 #wrapper{
-    height: calc(100% - 80px);
+    height: calc(100% - 70px);
 }
 
 /* #region sidebar */
@@ -58,18 +58,16 @@ body{
 
 /* #endregion sidebar */
 
-/* #region main_container */
+/* #region main */
 
-.main_container{
-    background-color: blueviolet;
+main{
     overflow-y: auto;
 }
-
 /* #region banner */
 
 .banner{
     background-color: beige;
-    height: 150px;
+    
 }
 /* #endregion banner */
 
@@ -101,7 +99,7 @@ body{
 
 /* #endregion main_content */
 
-/* #endregion main_container */
+/* #endregion main */
 
 /* #endregion wrapper */
 
