@@ -29,7 +29,15 @@ body{
 /* #endregion common */
 
 /* #region utilities */
-
+.bg_badge_success{
+    background-color: var(--boot-success);
+}
+.bg_badge_process{
+    background-color: var(--boot-process);
+}
+.bg_badge_failed{
+    background-color: var(--boot-fail);
+}
 /* #endregion utilities */
 
 /* #region header */
