@@ -13,6 +13,7 @@ body{
     --boot-success: rgba(25, 135, 84, 1);
     --boot-process: rgba(255, 193, 7, 1);
     --boot-bell: rgba(255, 143, 0, 1);
+    --boot-bg_sidebar: rgba(5, 30, 52, 1);
     --boot-icon_dark: rgba(108, 117, 125, 1);
     --boot-icon_darker: rgba(91, 88, 88, 1);
     --boot-nav_lighter: rgba(251, 251, 252, 1);
@@ -21,7 +22,6 @@ body{
     --boot-main_light: rgba(247, 247, 247, 1);
     
 }
-
 /* #endregion common */
 
 /* #region utilities */
@@ -46,8 +46,8 @@ body{
 /* #region sidebar */
 
 .sidebar{
-    background-color: blue;
-    width: 70px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--boot-bg_sidebar);
 }
 
 /* #endregion sidebar */
@@ -56,6 +56,7 @@ body{
 
 .main_container{
     background-color: blueviolet;
+    overflow-y: auto;
 }
 
 /* #region banner */
@@ -69,7 +70,7 @@ body{
 /* #region main_content */
 
 .main_content{
-    overflow-y: auto;
+    
     background-color: brown;
 }
 
